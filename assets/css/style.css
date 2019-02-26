@@ -17,6 +17,7 @@ header{
     background:white;
     border-bottom: 3px solid white;
     margin-bottom: 30px;
+    position:static;
 }
 
 header h1{
@@ -134,4 +135,40 @@ footer{
 }
 #right-column ul li img{
     width:80px;
+}
+
+@media screen and (max-width: 980px) {
+   header{
+       position: static;
+
+   }
+   nav{
+       width:auto;
+   }
+   #right-column{
+       width:auto;
+   }
+  @media screen and (max-width: 768px) {
+   header{
+       position:static;
+   }
+   nav{
+    width:auto;
+}
+    #right-column{
+        width:auto;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+   header{
+       position:static;
+   }
+   nav{
+    width:auto;
+}
+    #right-column{
+        width:auto;
+    }
+  }
 }
