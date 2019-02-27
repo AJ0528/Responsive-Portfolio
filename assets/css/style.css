@@ -138,37 +138,35 @@ footer{
 }
 
 @media screen and (max-width: 980px) {
-   header{
-       position: static;
-
-   }
-   nav{
-       width:auto;
-   }
-   #right-column{
-       width:auto;
-   }
+    body {
+        background: #777777;
+        }
+    .container {
+        padding: 30px;
+    }
+    nav {
+      padding: 30px
+    }
+  }
   @media screen and (max-width: 768px) {
-   header{
-       position:static;
-   }
-   nav{
-    width:auto;
-}
-    #right-column{
-        width:auto;
+    body {
+        background: #777777;
+        }
+    .container {
+        padding: 40px;
+    }
+    nav {
+      padding: 40px
     }
   }
-
   @media screen and (max-width: 640px) {
-   header{
-       position:static;
-   }
-   nav{
-    width:auto;
-}
-    #right-column{
-        width:auto;
+    body {
+        background:#777777;
+        }
+    .container {
+        padding: 40px;
+    }
+    nav{
+      padding: 40px
     }
   }
-}
