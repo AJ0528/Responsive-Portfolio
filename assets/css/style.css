@@ -127,7 +127,7 @@ footer{
         margin-bottom: 20px;
         border-bottom:2px solid#ccc; 
 }
-#right-columl ul{
+#right-column ul{
     text-align: center;
 }
 #right-column ul li {
@@ -147,16 +147,16 @@ footer{
     nav {
       padding: 30px
     }
-  }
+  } 
   @media screen and (max-width: 768px) {
     body {
         background: #777777;
         }
     .container {
-        padding: 40px;
+        padding: 20px;
     }
     nav {
-      padding: 40px
+      padding: 20px
     }
   }
   @media screen and (max-width: 640px) {
@@ -164,9 +164,9 @@ footer{
         background:#777777;
         }
     .container {
-        padding: 40px;
+        padding: 20px;
     }
     nav{
-      padding: 40px
+      padding: 20px
     }
   }
