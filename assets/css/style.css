@@ -142,10 +142,11 @@ footer{
         background: #777777;
         }
     .container {
-        padding: 30px;
+        padding: 40px;
     }
     nav {
-      padding: 30px
+      padding: 40px;
+      float: left;
     }
   } 
   @media screen and (max-width: 768px) {
@@ -153,10 +154,11 @@ footer{
         background: #777777;
         }
     .container {
-        padding: 20px;
+        padding: 30px;
     }
     nav {
-      padding: 20px
+      padding: 30px;
+      float:left;
     }
   }
   @media screen and (max-width: 640px) {
@@ -167,6 +169,7 @@ footer{
         padding: 20px;
     }
     nav{
-      padding: 20px
+      padding: 20px;
+      float:left;
     }
   }
